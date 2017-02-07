@@ -1,0 +1,114 @@
+body {
+	background-color: #99ff66;
+	margin: 0;
+}
+/*footer naar beneder*/
+html, body {
+height: 100%;
+}
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+footer, .push {
+height: 4em;
+}
+ /*style voor knoppen*/
+.knop{
+	display: block;
+	background-color: #3366cc;
+	padding: 10px;
+	border-style: none;
+	border-radius: 5%;
+	max-width: 150px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/*style voor input fields*/
+.inputwrapper{
+	display: block;
+	background-color: #3366cc;
+	padding: 10px;
+	border-style: none;
+	border-radius: 5%;
+	max-width: 175px;
+	text-align: center;
+	color: white;
+}
+.input{
+	border-style: none;
+	background-color: #aec2ea;
+	text-align: center;
+}
+.input:focus{
+	background-color: white;
+
+}
+
+/*align center*/
+.center{
+	margin: auto !important;
+	display: block;
+}
+/*float left*/
+.floatleft{
+	float: left;
+	display: block;
+}
+/*float right*/
+.floatright{
+	float: right;
+	display: block;
+}
+/*display*/
+.display{
+	display: block;
+	background-color: #3366cc;
+	padding: 10px;
+	border-radius: 5%;
+	margin: 10px;
+	color: white;
+	text-align: center;
+	min-width: 50px;
+}
+/*style voor de pijl :D*/
+#pijl{
+	margin: auto;
+	display: block;
+	height: 40%;
+	width: 40%;
+}
+/*---------place holder color-----------*/
+::-webkit-input-placeholder {
+   color: black;
+}
+:-moz-placeholder {
+   color: black;  
+}
+::-moz-placeholder {
+   color: black;  
+}
+:-ms-input-placeholder {  
+   color: black;  
+}
+/*-------end place holder color---------*/
+/*table*/
+table{
+	background-color: #3366cc;
+	color: white;
+	border-collapse: collapse;
+	margin: auto;
+	border-radius: 5%;
+	min-width: 600px;
+}
+table tr th,
+table tr td{
+	font-size: 200%;
+	padding: 10px;
+
+}
